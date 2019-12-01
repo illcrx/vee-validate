@@ -6,6 +6,8 @@ VeeValidate is a validation framework built specifically for Vue.js and as such 
 
 VeeValidate is a collection of function-based APIs and Vue components, the main things that will be covered is how to add rules and use them on your fields and error messages.
 
+VeeValidate does not include any rules out of the box, it is an empty canvas and ships this way to reduce the bundle size. VeeValidate does have a standard rule library and you can read more about this and how to access it in the `Available Rules` section of this guide. 
+
 ## Validation Provider
 
 First you need to register the `ValidationProvider` component which acts as a validator for your fields, it works via [scoped-slots](https://vuejs.org/v2/guide/components-slots.html) to provide validation errors to your template.
